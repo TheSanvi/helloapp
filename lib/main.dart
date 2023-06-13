@@ -2,17 +2,15 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-     MaterialApp(
-
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.teal,
-        appBar:AppBar(
-
-
+        appBar: AppBar(
+          centerTitle: true,
           title: const Text("Hello"),
         ),
-        body: Text("Body"),
+        body: Center(child: Text("Body")),
       ),
     ),
   );
