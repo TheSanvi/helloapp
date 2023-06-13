@@ -2,9 +2,17 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Center(
-        child: Text("Hello"),
+     MaterialApp(
+
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        appBar:AppBar(
+
+
+          title: const Text("Hello"),
+        ),
+        body: Text("Body"),
       ),
     ),
   );
